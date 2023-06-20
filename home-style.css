@@ -45,20 +45,20 @@ h2 {
 .ImgSection2 {
   width:756px;
   height: 1008px;
-  margin-top: 25px;
+  margin-top: 75px;
   fill:white;
   display:inline-block;
   vertical-align: middle;
   position: static;
 }
 
-.Image3 {
-  display: block;
-  max-width:1920px;
-  width: auto;
-  height: auto;
+.ImgSection3 {
+  width:756px;
+  height: 1008px;
+  margin-top: -50px;
   fill:white;
   display:inline-block;
+  vertical-align: middle;
   position: static;
 }
 /* Gif og Images */
@@ -87,12 +87,47 @@ h2 {
   margin-bottom:-7px; /*Fix for safari gap*/
   min-height:100px;
   max-height:150px;
-  top: 0px;
+  top: -135px;
 }
+
+/* Minde container */
+.MindeContainer {
+  height: 250px;
+  width: 1920px;
+  margin-top: -100px;
+  background-color: #FFD0D0;
+  position: static;
+}
+.minder {
+  font-family: Calibri;
+  font-weight: 800;
+  font-size: 8.5vw;
+  text-transform: uppercase;
+}
+
+.HvidBox {
+  height: 250px;
+  width: 1920px;
+  margin-top: -135px;
+  background-color: #fff;
+  position: static;
+}
+
+/* Billede container */
+.BilledContainer {
+  height: 3200px;
+  width: 1920px;
+  margin-top: -00px;
+  background-color: #C1ECE4;
+  position: static;
+}
+
 /* Farve Tekst */
 .title-word {
   animation: color-animation 4s linear infinite;
 }
+
+.h2
 
 .title-word-1 {
   --color-1: #DF8453;
@@ -132,15 +167,15 @@ h2 {
   display: grid;
   place-items: center;  
   text-align: center;
-  height: 60vh
+  height: 60vh;
 }
 
 .title {
   font-family: Calibri;
   font-weight: 800;
-  font-size: 8.5vw;
+  font-size: 8vw;
   text-transform: uppercase;
-  margin-top: -200px;
+  margin-top: 00px;
 }
 /* Farve Tekst */
 
@@ -174,39 +209,6 @@ h2 {
   }
 }
 /* Animation */
-
-/* Animated Text Reveal */
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  position: relative;
-  letter-spacing: 0.04em;
-}
-.revealUp {
-  opacity: 0;
-  visibility: hidden;
-}
-.spacer {
-  height: 50vh;
-  background-color: #000;
-}
-.section {
-  height: 100vh;
-  width: 100%;
-  position: relative;
-  padding: 0;
-  text-align: center;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.bg1 {
-  background-color: #ccc;
-}
-/* Animated Text Reveal */
-
 
 /*Shrinking for mobile*/
 @media (max-width: 768px) {
