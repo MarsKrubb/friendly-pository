@@ -1,262 +1,265 @@
 body {
-    margin: 0;
-    font-family: Calibri;
-  }
+  margin: 0;
+  font-family: Calibri;
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 p {
-  font-family: Calibri;
-  letter-spacing: 1px;
-  font-size:54px;
-  color: #000000;
-  position: static;
+font-family: Calibri;
+letter-spacing: 1px;
+font-size:54px;
+color: #000000;
+position: static;
 }
 
 h1 {
-  letter-spacing: 1px;
+letter-spacing: 1px;
 }
 
 h2 {
-  letter-spacing: 1px;
+letter-spacing: 1px;
 }
 /* Gifs og Images */
 .header {
-  position:static;
-  text-align:center;
-  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
-  color:white;
+position:static;
+text-align:center;
+background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+color:white;
 }
 
 .inner-header {
-  height:65vh;
-  width:100%;
-  margin: 0;
-  padding: 0;
+height:65vh;
+width:100%;
+margin: 0;
+padding: 0;
 }
 
 .Gif1 {
-  width:750px;
-  margin-top: 25px;
-  fill:white;
-  display:inline-block;
-  vertical-align: middle;
-  position: sticky;
+width:750px;
+margin-top: 25px;
+fill:white;
+display:inline-block;
+vertical-align: middle;
+position: sticky;
 }
 
 .ImgSection2 {
-  width:756px;
-  height: 1008px;
-  margin-top: 75px;
-  fill:white;
-  display:inline-block;
-  vertical-align: middle;
-  position: static;
+width:756px;
+height: 1008px;
+margin-top: 75px;
+fill:white;
+display:inline-block;
+vertical-align: middle;
+position: static;
 }
 
 .ImgSection3 {
-  width:756px;
-  height: 1008px;
-  margin-top: -50px;
-  fill:white;
-  display:inline-block;
-  vertical-align: middle;
-  position: static;
+width:756px;
+height: 1008px;
+margin-top: -50px;
+fill:white;
+display:inline-block;
+vertical-align: middle;
+position: static;
 }
 /* Gif og Images */
 
 .text1 {
-  font-family: Calibri;
-  font-weight: 800;
-  font-size: 8.5vw;
-  text-transform: uppercase;
-  margin-top: 00px
+font-family: Calibri;
+font-weight: 800;
+font-size: 8.5vw;
+text-transform: uppercase;
+margin-top: 00px
 }
 
 .text2 {
-  margin-top: 500px;
-  font-family: Calibri;
-  font-weight: 800;
-  font-size: 8.5vw;
-  text-transform: uppercase;
-  margin-top: 450px
+margin-top: 500px;
+font-family: Calibri;
+font-weight: 800;
+font-size: 8.5vw;
+text-transform: uppercase;
+margin-top: 450px
 }
 
 .waves {
-  position:relative;
-  width: 100%;
-  height:15vh;
-  margin-bottom:-7px; /*Fix for safari gap*/
-  min-height:100px;
-  max-height:150px;
-  top: -135px;
+position:relative;
+width: 100%;
+height:15vh;
+margin-bottom:-7px; /*Fix for safari gap*/
+min-height:100px;
+max-height:150px;
+top: -135px;
 }
 
 /* Minde container */
 .MindeContainer {
-  height: 250px;
-  width: 1920px;
-  margin-top: -100px;
-  background-color: #FFD0D0;
-  position: static;
+height: 250px;
+width: 1920px;
+margin-top: -100px;
+background-color: #FFD0D0;
+position: static;
 }
 .minder {
-  font-family: Calibri;
-  font-weight: 800;
-  font-size: 8.5vw;
-  text-transform: uppercase;
+font-family: Calibri;
+font-weight: 800;
+font-size: 8.5vw;
+text-transform: uppercase;
 }
 
 .HvidBox {
-  height: 250px;
-  width: 1920px;
-  margin-top: -135px;
-  background-color: #fff;
-  position: static;
+height: 250px;
+width: 1920px;
+margin-top: -135px;
+background-color: #fff;
+position: static;
 }
 
 /* Billede container */
 .BilledContainer {
-  height: 3200px;
-  width: 1920px;
-  margin-top: -00px;
-  background-color: #C1ECE4;
-  position: static;
+height: 3200px;
+width: 1920px;
+margin-top: -00px;
+background-color: #C1ECE4;
+position: static;
 }
 
 /* Farve Tekst */
 .title-word {
-  animation: color-animation 4s linear infinite;
+animation: color-animation 4s linear infinite;
 }
 
 .h2
 
 .title-word-1 {
-  --color-1: #DF8453;
-  --color-2: #3D8DAE;
-  --color-3: #E4A9A8;
+--color-1: #DF8453;
+--color-2: #3D8DAE;
+--color-3: #E4A9A8;
 }
 
 .title-word-2 {
-  --color-1: #DBAD4A;
-  --color-2: #ACCFCB;
-  --color-3: #17494D;
+--color-1: #DBAD4A;
+--color-2: #ACCFCB;
+--color-3: #17494D;
 }
 
 .title-word-3 {
-  --color-1: #ACCFCB;
-  --color-2: #E4A9A8;
-  --color-3: #ACCFCB;
+--color-1: #ACCFCB;
+--color-2: #E4A9A8;
+--color-3: #ACCFCB;
 }
 
 .title-word-4 {
-  --color-1: #3D8DAE;
-  --color-2: #DF8453;
-  --color-3: #E4A9A8;
+--color-1: #3D8DAE;
+--color-2: #DF8453;
+--color-3: #E4A9A8;
 }
 
 @keyframes color-animation {
-  0%    {color: var(--color-1)}
-  32%   {color: var(--color-1)}
-  33%   {color: var(--color-2)}
-  65%   {color: var(--color-2)}
-  66%   {color: var(--color-3)}
-  99%   {color: var(--color-3)}
-  100%  {color: var(--color-1)}
+0%    {color: var(--color-1)}
+32%   {color: var(--color-1)}
+33%   {color: var(--color-2)}
+65%   {color: var(--color-2)}
+66%   {color: var(--color-3)}
+99%   {color: var(--color-3)}
+100%  {color: var(--color-1)}
 }
 
 .rainbow-container {
-  display: grid;
-  place-items: center;  
-  text-align: center;
-  height: 60vh;
+display: grid;
+place-items: center;  
+text-align: center;
+height: 60vh;
 }
 
 .title {
-  font-family: Calibri;
-  font-weight: 800;
-  font-size: 8vw;
-  text-transform: uppercase;
-  margin-top: 00px;
+font-family: Calibri;
+font-weight: 800;
+font-size: 8vw;
+text-transform: uppercase;
+margin-top: 00px;
 }
 /* Farve Tekst */
 
 /* Animation */
 
 .parallax > use {
-  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
 }
 .parallax > use:nth-child(1) {
-  animation-delay: -2s;
-  animation-duration: 7s;
+animation-delay: -2s;
+animation-duration: 7s;
 }
 .parallax > use:nth-child(2) {
-  animation-delay: -3s;
-  animation-duration: 10s;
+animation-delay: -3s;
+animation-duration: 10s;
 }
 .parallax > use:nth-child(3) {
-  animation-delay: -4s;
-  animation-duration: 13s;
+animation-delay: -4s;
+animation-duration: 13s;
 }
 .parallax > use:nth-child(4) {
-  animation-delay: -5s;
-  animation-duration: 20s;
+animation-delay: -5s;
+animation-duration: 20s;
 }
 @keyframes move-forever {
-  0% {
-   transform: translate3d(-90px,0,0);
-  }
-  100% { 
-    transform: translate3d(85px,0,0);
-  }
+0% {
+ transform: translate3d(-90px,0,0);
+}
+100% { 
+  transform: translate3d(85px,0,0);
+}
 }
 /* Animation */
 
 /*Shrinking for mobile*/
 @media (max-width: 768px) {
-  p {
-    margin-top: -120px;
-    font-size: 30px;
-  }
-  .Gif1 {
-    max-width: 95%;
-  }
-  .title {
-    margin-top: -800px;
-    font-size: 9vw;
-  }
-  .MindeContainer {
-    height: 75px;
-    width: 360px;
-    margin-top: -550px;
-  }
-  .minder {
-    font-weight: 800;
-    font-size: 15.5vw;
-  }
-  .BilledContainer {
-    height: 1500px;
-    width: 360px;
-  }
-  .ImgSection2 {
-    max-width: 100%;
-    height: 580px;
-    object-fit: cover;
-    margin-top: 40px;
-  }
-  .ImgSection3 {
-    max-width: 100%;
-    height: 580px;
-    object-fit: cover;
-    margin-top: 00px
-  }
-  .HvidBox {
-    height: 20px;
-    width: 360px;
-    margin-top: -1000px;
-  }
-  .waves {
-    top: -10px;
-    height:40px;
-    min-height:70px;
-    margin-top: -500px;
-  }
+p {
+  margin-top: -120px;
+  font-size: 30px;
+}
+.Gif1 {
+  max-width: 95%;
+}
+.title {
+  margin-top: -750px;
+  font-size: 7.2vw;
+}
+.MindeContainer {
+  height: 75px;
+  max-height: 100%;
+  max-width: 100%;
+  margin-top: -570px;
+}
+.minder {
+  font-weight: 800;
+  font-size: 15.5vw;
+}
+.BilledContainer {
+  height: 1500px;
+  max-width: 100%;
+}
+.ImgSection2 {
+  max-width: 100%;
+  height: 580px;
+  object-fit: cover;
+  margin-top: 40px;
+}
+.ImgSection3 {
+  max-width: 100%;
+  height: 580px;
+  object-fit: cover;
+  margin-top: 00px
+}
+.HvidBox {
+  height: 20px;
+  max-width: 100%;
+  margin-top: -1000px;
+}
+.waves {
+  top: -10px;
+  height:40px;
+  min-height:70px;
+  margin-top: -500px;
+}
 }
