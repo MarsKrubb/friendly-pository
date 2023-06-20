@@ -51,11 +51,33 @@ h2 {
   vertical-align: middle;
   position: static;
 }
+
+.Image3 {
+  display: block;
+  max-width:1920px;
+  width: auto;
+  height: auto;
+  fill:white;
+  display:inline-block;
+  position: static;
+}
 /* Gif og Images */
 
 .text1 {
-  margin-top: 500px;
+  font-family: Calibri;
+  font-weight: 800;
+  font-size: 8.5vw;
   text-transform: uppercase;
+  margin-top: 00px
+}
+
+.text2 {
+  margin-top: 500px;
+  font-family: Calibri;
+  font-weight: 800;
+  font-size: 8.5vw;
+  text-transform: uppercase;
+  margin-top: 450px
 }
 
 .waves {
@@ -110,7 +132,7 @@ h2 {
   display: grid;
   place-items: center;  
   text-align: center;
-  height: 100vh
+  height: 60vh
 }
 
 .title {
@@ -118,6 +140,7 @@ h2 {
   font-weight: 800;
   font-size: 8.5vw;
   text-transform: uppercase;
+  margin-top: -200px;
 }
 /* Farve Tekst */
 
