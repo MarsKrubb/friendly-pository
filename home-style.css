@@ -35,7 +35,7 @@ margin: 0;
 padding: 0;
 }
 
-.Gif1 {
+.ImgSection1 {
 width:750px;
 margin-top: 25px;
 fill:white;
@@ -47,7 +47,7 @@ position: sticky;
 .ImgSection2 {
 width:756px;
 height: 1008px;
-margin-top: 75px;
+margin-top: -75px;
 fill:white;
 display:inline-block;
 vertical-align: middle;
@@ -62,6 +62,9 @@ fill:white;
 display:inline-block;
 vertical-align: middle;
 position: static;
+}
+.ImgSection4 {
+  src: local(uwu-cute.gif);
 }
 /* Gif og Images */
 
@@ -92,19 +95,30 @@ max-height:150px;
 top: -135px;
 }
 
-/* Minde container */
+/* Container */
 .MindeContainer {
 height: 250px;
 width: 1920px;
 margin-top: -100px;
-background-color: #FFD0D0;
+background: rgb(238,174,202);
+background: linear-gradient(360deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 0%);
 position: static;
 }
+
 .minder {
 font-family: Calibri;
 font-weight: 800;
 font-size: 8.5vw;
 text-transform: uppercase;
+}
+
+.BilledContainer {
+  height: 3500px;
+  width: 1920px;
+  margin-top: -00px;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  position: static;
 }
 
 .HvidBox {
@@ -115,14 +129,6 @@ background-color: #fff;
 position: static;
 }
 
-/* Billede container */
-.BilledContainer {
-height: 3200px;
-width: 1920px;
-margin-top: -00px;
-background-color: #C1ECE4;
-position: static;
-}
 
 /* Farve Tekst */
 .title-word {
